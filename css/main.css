@@ -1,0 +1,62 @@
+@import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root{
+    --primary-orange: #F18128;
+    --secondary-orange: #ED8E00;
+    --dark-blue: #040D1F;
+    --white: #fff;
+    --montserrat: "Montserrat";
+    --roboto: "Roboto";
+    --comfortaa: "Comfortaa";
+}
+
+/* GLOBAL STYLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/* CONTAINER STYLE*/
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+body{
+    font-family: var(--montseret);
+    background-color: var(--dark-blue);
+}
+
+.all-btn{
+    display: inline-block;
+    max-width: 166px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: var(--primary-orange);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: center;
+    font-family: var(--roboto);
+    padding: 17px 0;
+    color: #000;
+    transition: .5s;
+}
+.all-btn:hover{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
