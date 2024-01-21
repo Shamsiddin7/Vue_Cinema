@@ -35,6 +35,15 @@ ul{
     padding-right: 15px;
     margin: auto;
 }
+.title{
+    color: var(--primary-orange);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: var(--comfortaa);
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--primary-orange);
+    width: max-content;
+}
 body{
     font-family: var(--montserrat);
     background-color: var(--dark-blue);
