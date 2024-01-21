@@ -82,3 +82,62 @@ body{
 }
 /* SITE-ADS */
 
+/* SITE-HEADER */
+.site-header {
+    background: rgba(1, 3, 5, 0.80);
+    backdrop-filter: blur(7.5px);
+}
+.nav {
+}
+.container {
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--comfortaa);
+}
+.nav-logo__img {
+    object-fit: cover;
+    width: 103px;
+    height: 43px;
+}
+.nav-list {
+    display: flex;
+}
+.nav-link {
+    padding: 42px 12px;
+    display: inline-block;
+    color: var(--white);
+    font-size: 14px;
+    font-family: var(--comfortaa);
+    font-weight: 400;
+    position: relative;
+    transition: .5s;
+}
+.nav-link::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 23px 10px 0px 0px;
+    background-color: var(--primary-orange);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s;
+}
+.nav-link:hover{
+    color: var(--primary-orange);
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+/* SITE-HEADER */
+
