@@ -60,3 +60,25 @@ body{
     background-color: var(--dark-blue);
     color: var(--white);
 }
+
+/* SITE-ADS */
+.site-ads {
+    width: 100%;
+    background: linear-gradient(90deg, #0031AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    column-gap: 24px;
+}
+.ads-title {
+    max-width: 166px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--comfortaa);
+}
+/* SITE-ADS */
+
