@@ -497,10 +497,10 @@ body {
     font-family: var(--comfortaa);
 }
 
-.series-grid{
+.series-grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 30px;
     margin-top: 30px;
     position: relative;
@@ -513,13 +513,16 @@ body {
     grid-row: span 2;
     grid-column: span 2;
 }
+
 .item {
     min-height: 183px;
 }
+
 .series-card-md__img {
     position: absolute;
     z-index: -1;
 }
+
 .series-card-grid__content {
     width: 100%;
     height: 100%;
@@ -530,28 +533,34 @@ body {
     align-items: center;
     row-gap: 20px;
 }
-.series-card-grid__content:hover .series-card-grid__link{
+
+.series-card-grid__content:hover .series-card-grid__link {
     transform: scale(1.4);
 }
-.series-card-grid__content:hover .series-card-grid__title{
+
+.series-card-grid__content:hover .series-card-grid__title {
     transform: scale(0);
 }
+
 .series-card-grid__link {
     color: var(--white);
     transition: .5s;
 }
+
 .series-card-grid__title {
     color: var(--white);
     font-size: 24px;
     font-weight: 700;
     font-family: var(--comfortaa);
     transition: .5s;
-    
+
 }
-.series-card-sm{
+
+.series-card-sm {
     grid-row: span 1;
     grid-column: span 1;
 }
+
 /* SERIES SECTION */
 
 /* SITE-FOOTER */
@@ -561,14 +570,17 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 .footer-app {
     display: flex;
     align-items: center;
     column-gap: 50px;
 }
+
 .app-image {
     object-fit: cover;
 }
+
 .footer-text {
     color: var(--white);
     font-family: var(--comfortaa);
